@@ -24,3 +24,13 @@ jobs:
         pip install tox tox-gh-actions
     - name: Test with tox
       run: tox
+    - name: Say some stuff
+      run: |
+        ls -a
+    - name: run a python script
+      run: |
+        echo Starting
+        pip install django-extensions
+        pip install pydotplus
+        echo Done
+
