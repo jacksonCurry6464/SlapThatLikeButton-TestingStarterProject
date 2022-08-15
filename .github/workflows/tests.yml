@@ -32,5 +32,6 @@ jobs:
         echo Starting
         pip install django-extensions
         pip install pydotplus
+        pip install numpy
         echo Done
 
